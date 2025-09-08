@@ -1,0 +1,37 @@
+/* 游戏画布样式 */
+canvas {
+  width: 320px;
+  height: 320px;
+  border: 2rpx solid #D64340;
+  border-radius: 8rpx;
+}
+
+/* 方向键整体容器 */
+.btnBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20rpx 0;
+}
+
+/* 左、下、右键容器 */
+.middleBtn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+}
+
+/* 所有方向键样式 */
+.btnBox button, .middleBtn button {
+  width: 90rpx;
+  height: 90rpx;
+  margin: 0 15rpx;
+  padding: 0;
+  font-size: 16pt;
+}
+
+/* 重新开始按钮样式 */
+.restartGame {
+  margin-top: 10rpx;
+  width: 200rpx;
+}

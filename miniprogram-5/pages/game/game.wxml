@@ -1,0 +1,22 @@
+<view class="container">
+  <!-- 关卡标题 -->
+  <view class="title">第{{level}}关</view>
+
+  <!-- 游戏画布（8*8方格，每个方格40px，总尺寸320px） -->
+  <canvas canvas-id="myCanvas"></canvas>
+
+  <!-- 方向键区域 -->
+  <view class="btnBox">
+    <!-- 上键 -->
+    <button type="warn" bindtap="up">↑</button>
+    <!-- 左、下、右键 -->
+    <view class="middleBtn">
+      <button type="warn" bindtap="left">←</button>
+      <button type="warn" bindtap="down">↓</button>
+      <button type="warn" bindtap="right">→</button>
+    </view>
+  </view>
+
+  <!-- 重新开始按钮 -->
+  <button type="warn" bindtap="restartGame">重新开始</button>
+</view>

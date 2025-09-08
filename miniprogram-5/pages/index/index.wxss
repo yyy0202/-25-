@@ -1,0 +1,30 @@
+/* 关卡列表容器 */
+.levelBox {
+  width: 100%;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+/* 单个关卡容器 */
+.box {
+  width: 50%;
+  float: left;
+  margin: 20rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 关卡预览图 */
+.box image {
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+/* 关卡文字 */
+.box text {
+  font-size: 14pt;
+  margin-top: 8rpx;
+}
